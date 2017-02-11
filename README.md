@@ -12,4 +12,9 @@ In order to accomplish this, you will only have access to the following operatio
 - **sc** sa and sb at the same time
 - **pa** take the first element from lb and move it to the first position on the la list (nothing will happen if lb is empty)
 - **pb** take the first element from la and move it to the first position on the lb list (nothing will happen if la is empty)
-- **ra** rotate la (toward the beginning the first element will become the last
+- **ra** rotate la (toward the beginning the first element will become the last)
+- **rb** rotate lb (toward the beginning the first element will become the last)
+- **rr** ra and rb at the same time
+ - **rra** rotate la (toward the end the last element will become the first)
+- **rrb** rotate lb (toward the end the last element will become the first)
+- **rrr** rra and rrb at the same time
